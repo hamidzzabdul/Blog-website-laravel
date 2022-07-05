@@ -1,0 +1,107 @@
+.category-section {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 20px auto;
+    background-color: white;
+    position: relative;
+}
+
+.categories {
+    width: 60%;
+    min-height: 300px;
+    margin: 20px 30px;
+    border-radius: 10px;
+    background-color: #e6f7f7;
+}
+
+.category-name {
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 900px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.all-categories {
+    width: 100%;
+    list-style: none;
+}
+
+.one-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.one-category>li {
+    margin-top: 10px;
+    padding: 15px 0;
+}
+
+.one-category>li>a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.delete-btn {
+    margin: 0 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: black;
+    font-size: .7rem;
+    color: white;
+    cursor: pointer;
+    transition: 200ms all ease-in;
+}
+
+.delete-btn:hover {
+    transform: translateY(-3px);
+}
+
+.add-category {
+    background-color: #e6f7f7;
+    width: 40%;
+    height: 200px;
+    margin: 50px 20px;
+}
+
+.form-control {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.add-category>h1 {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.add-input {
+    width: 70%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: .8em;
+    padding: 10px 15px;
+}
+
+.add-btn {
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 300ms all ease;
+}
+
+.add-btn:hover {
+    transform: translateY(-4px);
+}
